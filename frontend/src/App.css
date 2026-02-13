@@ -1,0 +1,18 @@
+/* Remove default margins and ensure full height */
+#root {
+  min-height: 100vh;
+}
+
+.App {
+  min-height: 100vh;
+}
+
+/* Smooth scroll behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Ensure proper spacing for fixed header */
+main {
+  padding-top: 64px; /* Height of fixed header */
+}
